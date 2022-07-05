@@ -1,0 +1,150 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;   
+    color: dimgrey;
+}
+span{
+    color: orange;
+}
+p{
+    font-size: 23px;
+    margin-bottom: 40px;
+    color: dimgrey;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight: 400;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.flexiable{
+    display: flex;
+}
+.half-with{
+    width: 50%;
+}
+.text-area{
+    padding-left: 80px;
+    line-height: 30px;
+    margin-top: 110px;
+}
+.image-hero{
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 66px;
+}
+.image-hero img{
+    width: 76%;
+}
+
+.about-section{
+    background-image: url(img/shape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-img{
+    width: 50%;
+    text-align: center;
+}
+.about-img img{
+    width: 50%;
+}
+.about-area{
+    width: 50%;
+    padding-top: 98px;
+}
+.about-area h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: dimgrey;
+}
+.about-area p{
+    font-size: 20px;
+}
+
+.recipt{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.width-text{
+    text-align: center;
+    width: 60%;
+}
+.recipt .width-text p{
+    font-size: 18px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0% 4% 4% 4%;
+    box-sizing: border-box;
+}
+.card-1{
+    width: 48%;
+    padding: 26px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 15%);
+    border-radius: 6%;    
+}
+.card-1 img{
+    width: 100%;
+}
+.card-2{
+    width: 48%;
+    padding: 26px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 15%);
+    border-radius: 6%;
+}
+.card-2 img{
+    width: 100%;
+}
+
+.social{
+    margin: 13px 100px 13px 100px;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 15%);
+    border-radius: 16px;
+    padding-top: 12px;
+}
+.social-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.social-child{
+    line-height: 2px;
+    text-align: center;
+}
+.social-child h1{
+    color: #000;
+}
+.social-child p{
+    font-size: 18px;
+    color: #000;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(20, 19, 19);
+    padding-top: 32px;
+    padding-bottom: 5px;
+    line-height: 34px;
+}
+footer h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+footer p{
+    font-size: 16px;
+    color: #fff;
+}
